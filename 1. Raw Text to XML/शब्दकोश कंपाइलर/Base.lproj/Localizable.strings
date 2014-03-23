@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  शब्दकोश कंपाइलर
+
+  Created by जमादार on 22-3-14.
+  Copyright (c) 2014 Apple. All rights reserved.
+*/
+
+"CHOOSE_SOURCE_FILE_PLACEHOLDER" = "बाईं तरफ़ के बटन को दबाकर स्रोत फ़ाइल चुनें";
+"CHOOSE_DESTINATION_FILE_PLACEHOLDER" = "बाईं तरफ़ के बटन को दबाकर गंतव्य फ़ोल्डर चुनें";
+
+"DESTINATION_FILE_EXISTS_ERROR" = "गंतव्य पर मौजूदा फ़ाइल";
+"DESTINATION_FILE_EXISTS_ERROR_DESCRIPTION" = "जिस गंतव्य पर फ़ाइल सहेजी जाएगी वहाँ पर पहले से ही एक फ़ाइल है। क्या आप उस फ़ाइल को त्यागना चाहते हैं?";
+"DESTINATION_FILE_EXISTS_CANCEL" = "रद्द करें";
+"DESTINATION_FILE_EXISTS_PROCEED" = "त्यागें और जारी रखें";
+
+"PROCESSING_IN_PROGRESS" = "कार्य प्रगति पर है";
+"PROCESSING_FINISHED" = "कार्य समाप्त हो चुका है";

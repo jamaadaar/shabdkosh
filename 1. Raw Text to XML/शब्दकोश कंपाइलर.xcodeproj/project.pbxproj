@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36A3044141CB06700FB5E05 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36A3043141CB06700FB5E05 /* Cocoa.framework */; };
+		B36A304E141CB06700FB5E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36A304C141CB06700FB5E05 /* InfoPlist.strings */; };
+		B36A3050141CB06700FB5E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A304F141CB06700FB5E05 /* main.m */; };
+		B36A3054141CB06700FB5E05 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B36A3052141CB06700FB5E05 /* Credits.rtf */; };
+		B36A3057141CB06700FB5E05 /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36A3056141CB06700FB5E05 /* SKAppDelegate.m */; };
+		B36A305A141CB06700FB5E05 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36A3058141CB06700FB5E05 /* MainMenu.xib */; };
+		B3DE9C5518DEAA93009883F2 /* NSString+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9C5418DEAA93009883F2 /* NSString+SKAdditions.m */; };
+		B3DE9C5818DEAB6E009883F2 /* SKDictionaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9C5718DEAB6E009883F2 /* SKDictionaryEntry.m */; };
+		B3DE9C5B18DEABF0009883F2 /* NSCharacterSet+SKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9C5A18DEABF0009883F2 /* NSCharacterSet+SKAdditions.m */; };
+		B3DE9C5E18DEB2B1009883F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3DE9C5C18DEB2B1009883F2 /* Localizable.strings */; };
+		B3DE9C6118DEB61A009883F2 /* SKParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9C6018DEB61A009883F2 /* SKParser.m */; };
+		B3DE9C6418DEB635009883F2 /* SKCatuvediParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9C6318DEB635009883F2 /* SKCatuvediParser.m */; };
+		B3DE9C6B18DEC80E009883F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DE9C6A18DEC80E009883F2 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B36A303F141CB06700FB5E05 /* शब्दकोश कंपाइलर.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "शब्दकोश कंपाइलर.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36A3043141CB06700FB5E05 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B36A3046141CB06700FB5E05 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B36A3047141CB06700FB5E05 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B36A3048141CB06700FB5E05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B36A304B141CB06700FB5E05 /* शब्दकोश कंपाइलर-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "शब्दकोश कंपाइलर-Info.plist"; sourceTree = "<group>"; };
+		B36A304F141CB06700FB5E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36A3051141CB06700FB5E05 /* शब्दकोश कंपाइलर-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "शब्दकोश कंपाइलर-Prefix.pch"; sourceTree = "<group>"; };
+		B36A3055141CB06700FB5E05 /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		B36A3056141CB06700FB5E05 /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		B3DE9C5018DEA25C009883F2 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3DE9C5118DEA25C009883F2 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = hi; path = hi.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B3DE9C5218DEA270009883F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B3DE9C5318DEAA93009883F2 /* NSString+SKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKAdditions.h"; sourceTree = "<group>"; };
+		B3DE9C5418DEAA93009883F2 /* NSString+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKAdditions.m"; sourceTree = "<group>"; };
+		B3DE9C5618DEAB6E009883F2 /* SKDictionaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDictionaryEntry.h; sourceTree = "<group>"; };
+		B3DE9C5718DEAB6E009883F2 /* SKDictionaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDictionaryEntry.m; sourceTree = "<group>"; };
+		B3DE9C5918DEABF0009883F2 /* NSCharacterSet+SKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+SKAdditions.h"; sourceTree = "<group>"; };
+		B3DE9C5A18DEABF0009883F2 /* NSCharacterSet+SKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+SKAdditions.m"; sourceTree = "<group>"; };
+		B3DE9C5D18DEB2B1009883F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3DE9C5F18DEB61A009883F2 /* SKParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKParser.h; sourceTree = "<group>"; };
+		B3DE9C6018DEB61A009883F2 /* SKParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKParser.m; sourceTree = "<group>"; };
+		B3DE9C6218DEB635009883F2 /* SKCatuvediParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCatuvediParser.h; sourceTree = "<group>"; };
+		B3DE9C6318DEB635009883F2 /* SKCatuvediParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCatuvediParser.m; sourceTree = "<group>"; };
+		B3DE9C6718DEBAF0009883F2 /* SKParser_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKParser_Internal.h; sourceTree = "<group>"; };
+		B3DE9C6A18DEC80E009883F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36A303C141CB06700FB5E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36A3044141CB06700FB5E05 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36A3034141CB06700FB5E05 = {
+			isa = PBXGroup;
+			children = (
+				B36A3049141CB06700FB5E05 /* शब्दकोश कंपाइलर */,
+				B36A3042141CB06700FB5E05 /* Frameworks */,
+				B36A3040141CB06700FB5E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36A3040141CB06700FB5E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36A303F141CB06700FB5E05 /* शब्दकोश कंपाइलर.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36A3042141CB06700FB5E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36A3043141CB06700FB5E05 /* Cocoa.framework */,
+				B36A3045141CB06700FB5E05 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B36A3045141CB06700FB5E05 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36A3046141CB06700FB5E05 /* AppKit.framework */,
+				B36A3047141CB06700FB5E05 /* CoreData.framework */,
+				B36A3048141CB06700FB5E05 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B36A3049141CB06700FB5E05 /* शब्दकोश कंपाइलर */ = {
+			isa = PBXGroup;
+			children = (
+				B36A3055141CB06700FB5E05 /* SKAppDelegate.h */,
+				B36A3056141CB06700FB5E05 /* SKAppDelegate.m */,
+				B3DE9C5618DEAB6E009883F2 /* SKDictionaryEntry.h */,
+				B3DE9C5718DEAB6E009883F2 /* SKDictionaryEntry.m */,
+				B3DE9C6618DEB673009883F2 /* Parsers */,
+				B3DE9C6518DEB652009883F2 /* Categories */,
+				B36A3058141CB06700FB5E05 /* MainMenu.xib */,
+				B3DE9C5C18DEB2B1009883F2 /* Localizable.strings */,
+				B3DE9C6A18DEC80E009883F2 /* Images.xcassets */,
+				B36A304A141CB06700FB5E05 /* Supporting Files */,
+			);
+			path = "शब्दकोश कंपाइलर";
+			sourceTree = "<group>";
+		};
+		B36A304A141CB06700FB5E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36A304B141CB06700FB5E05 /* शब्दकोश कंपाइलर-Info.plist */,
+				B36A304C141CB06700FB5E05 /* InfoPlist.strings */,
+				B36A304F141CB06700FB5E05 /* main.m */,
+				B36A3051141CB06700FB5E05 /* शब्दकोश कंपाइलर-Prefix.pch */,
+				B36A3052141CB06700FB5E05 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3DE9C6518DEB652009883F2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE9C5918DEABF0009883F2 /* NSCharacterSet+SKAdditions.h */,
+				B3DE9C5A18DEABF0009883F2 /* NSCharacterSet+SKAdditions.m */,
+				B3DE9C5318DEAA93009883F2 /* NSString+SKAdditions.h */,
+				B3DE9C5418DEAA93009883F2 /* NSString+SKAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B3DE9C6618DEB673009883F2 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE9C5F18DEB61A009883F2 /* SKParser.h */,
+				B3DE9C6718DEBAF0009883F2 /* SKParser_Internal.h */,
+				B3DE9C6018DEB61A009883F2 /* SKParser.m */,
+				B3DE9C6218DEB635009883F2 /* SKCatuvediParser.h */,
+				B3DE9C6318DEB635009883F2 /* SKCatuvediParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36A303E141CB06700FB5E05 /* शब्दकोश कंपाइलर */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36A305D141CB06700FB5E05 /* Build configuration list for PBXNativeTarget "शब्दकोश कंपाइलर" */;
+			buildPhases = (
+				B36A303B141CB06700FB5E05 /* Sources */,
+				B36A303C141CB06700FB5E05 /* Frameworks */,
+				B36A303D141CB06700FB5E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "शब्दकोश कंपाइलर";
+			productName = Caturvedi;
+			productReference = B36A303F141CB06700FB5E05 /* शब्दकोश कंपाइलर.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36A3036141CB06700FB5E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = B36A3039141CB06700FB5E05 /* Build configuration list for PBXProject "शब्दकोश कंपाइलर" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				hi,
+				Base,
+			);
+			mainGroup = B36A3034141CB06700FB5E05;
+			productRefGroup = B36A3040141CB06700FB5E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36A303E141CB06700FB5E05 /* शब्दकोश कंपाइलर */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36A303D141CB06700FB5E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36A304E141CB06700FB5E05 /* InfoPlist.strings in Resources */,
+				B3DE9C5E18DEB2B1009883F2 /* Localizable.strings in Resources */,
+				B3DE9C6B18DEC80E009883F2 /* Images.xcassets in Resources */,
+				B36A3054141CB06700FB5E05 /* Credits.rtf in Resources */,
+				B36A305A141CB06700FB5E05 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36A303B141CB06700FB5E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DE9C5B18DEABF0009883F2 /* NSCharacterSet+SKAdditions.m in Sources */,
+				B3DE9C6418DEB635009883F2 /* SKCatuvediParser.m in Sources */,
+				B3DE9C5818DEAB6E009883F2 /* SKDictionaryEntry.m in Sources */,
+				B3DE9C5518DEAA93009883F2 /* NSString+SKAdditions.m in Sources */,
+				B36A3050141CB06700FB5E05 /* main.m in Sources */,
+				B3DE9C6118DEB61A009883F2 /* SKParser.m in Sources */,
+				B36A3057141CB06700FB5E05 /* SKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B36A304C141CB06700FB5E05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DE9C5018DEA25C009883F2 /* hi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B36A3052141CB06700FB5E05 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DE9C5118DEA25C009883F2 /* hi */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B36A3058141CB06700FB5E05 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DE9C5218DEA270009883F2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B3DE9C5C18DEB2B1009883F2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DE9C5D18DEB2B1009883F2 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36A305B141CB06700FB5E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B36A305C141CB06700FB5E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B36A305E141CB06700FB5E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "शब्दकोश कंपाइलर/शब्दकोश कंपाइलर-Prefix.pch";
+				INFOPLIST_FILE = "शब्दकोश कंपाइलर/शब्दकोश कंपाइलर-Info.plist";
+				PRODUCT_NAME = "शब्दकोश कंपाइलर";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B36A305F141CB06700FB5E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "शब्दकोश कंपाइलर/शब्दकोश कंपाइलर-Prefix.pch";
+				INFOPLIST_FILE = "शब्दकोश कंपाइलर/शब्दकोश कंपाइलर-Info.plist";
+				PRODUCT_NAME = "शब्दकोश कंपाइलर";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36A3039141CB06700FB5E05 /* Build configuration list for PBXProject "शब्दकोश कंपाइलर" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36A305B141CB06700FB5E05 /* Debug */,
+				B36A305C141CB06700FB5E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36A305D141CB06700FB5E05 /* Build configuration list for PBXNativeTarget "शब्दकोश कंपाइलर" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36A305E141CB06700FB5E05 /* Debug */,
+				B36A305F141CB06700FB5E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36A3036141CB06700FB5E05 /* Project object */;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>hi_IN</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.dictionary.Caturvedi</string>
+	<key>CFBundleName</key>
+	<string>हिन्दी</string>
+	<key>CFBundleDisplayName</key>
+	<string>चतुर्वेदी</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>Copyright © 2011 Apple Inc.</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>Apple Inc.</string>
+	<key>DCSDictionaryFrontMatterReferenceID</key>
+	<string>front_back_matter</string>
+	<key>DCSDictionaryLanguages</key>
+	<array>
+		<dict>
+			<key>DCSDictionaryDescriptionLanguage</key>
+			<string>en</string>
+			<key>DCSDictionaryIndexLanguage</key>
+			<string>hi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
